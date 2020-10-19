@@ -1,0 +1,1415 @@
+INFO:root:Copy file aborted as data exists
+
+INFO:root:speech with id: -2529861572878402773, has already been processed
+INFO:root:speech with id: -1849479314639666201, has already been processed
+INFO:root:speech with id: 1688466274657295531, has already been processed
+INFO:root:speech with id: 4173689910598109235, has already been processed
+INFO:root:speech with id: -6025227985072052452, has already been processed
+INFO:root:speech with id: -2607327973077242468, has already been processed
+INFO:root:speech with id: 6901139771095665524, has already been processed
+INFO:root:speech with id: 809728465479848572, has already been processed
+INFO:root:speech with id: 5446843610741046301, has already been processed
+INFO:root:speech with id: -1387542741357681861, has already been processed
+INFO:root:speech with id: -4920554135499808494, has already been processed
+INFO:root:speech with id: 7273450700755531791, has already been processed
+INFO:root:speech with id: -3895142120531044585, has already been processed
+INFO:root:speech with id: 6372909606371311746, has already been processed
+INFO:root:speech with id: -4512225379129624390, has already been processed
+INFO:root:speech with id: -3918405580686320850, has already been processed
+INFO:root:speech with id: 9160501644838988732, has already been processed
+INFO:root:speech with id: 6588637251491698829, has already been processed
+INFO:root:speech with id: 5734299655018375748, has already been processed
+INFO:root:speech with id: 6471883694001288749, has already been processed
+INFO:root:speech with id: -8477152591904834452, has already been processed
+INFO:root:speech with id: 7112729703398907412, has already been processed
+INFO:root:speech with id: -6578989431791987750, has already been processed
+INFO:root:speech with id: 6591600475508896932, has already been processed
+INFO:root:speech with id: -7253101410872396872, has already been processed
+INFO:root:speech with id: -5902076505153096324, has already been processed
+INFO:root:speech with id: 4088614669622454302, has already been processed
+INFO:root:speech with id: -9030972070055839496, has already been processed
+INFO:root:speech with id: -8631400638153448495, has already been processed
+INFO:root:speech with id: -8464959653005830529, has already been processed
+INFO:root:speech with id: 6614068109671919449, has already been processed
+INFO:root:speech with id: -5146714514303157906, has already been processed
+INFO:root:speech with id: 2010259135618688268, has already been processed
+INFO:root:speech with id: -8418549042619611373, has already been processed
+INFO:root:speech with id: -2105323716210192423, has already been processed
+INFO:root:speech with id: -8000621089662711903, has already been processed
+INFO:root:speech with id: 8326261300687584993, has already been processed
+INFO:root:speech with id: 8091066622596680345, has already been processed
+INFO:root:speech with id: 8027677133511448278, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/peter-ainsworth-2008-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+INFO:root:speech with id: 3566139579368588355, has already been processed
+INFO:root:speech with id: 8914310722899258814, has already been processed
+INFO:root:speech with id: 6767084105616466995, has already been processed
+INFO:root:speech with id: -5444563821632846245, has already been processed
+INFO:root:speech with id: 1847556001548799927, has already been processed
+INFO:root:speech with id: -8885016133614498591, has already been processed
+INFO:root:speech with id: -8542358579262495301, has already been processed
+INFO:root:speech with id: 5747063615378975811, has already been processed
+INFO:root:speech with id: 6773651337166929067, has already been processed
+INFO:root:speech with id: -9064785297148329910, has already been processed
+INFO:root:speech with id: -1259877806279557773, has already been processed
+INFO:root:speech with id: -173137027026918848, has already been processed
+INFO:root:speech with id: 5397656071536752726, has already been processed
+INFO:root:speech with id: -6991391565269751301, has already been processed
+INFO:root:speech with id: -7112318414994210138, has already been processed
+INFO:root:speech with id: -4861986210849708154, has already been processed
+INFO:root:speech with id: -4308012960497417087, has already been processed
+INFO:root:speech with id: 1179363749515720256, has already been processed
+INFO:root:speech with id: -2023162052496335522, has already been processed
+INFO:root:speech with id: 8976428585567496652, has already been processed
+INFO:root:speech with id: 4774859895137079679, has already been processed
+INFO:root:speech with id: -3976383560335600350, has already been processed
+INFO:root:speech with id: 4429562796559383217, has already been processed
+INFO:root:speech with id: -5973415717556113243, has already been processed
+INFO:root:speech with id: -6650730642706050042, has already been processed
+INFO:root:speech with id: 8662342551004871834, has already been processed
+INFO:root:speech with id: -7407030610318318187, has already been processed
+INFO:root:speech with id: -8327862892521800728, has already been processed
+INFO:root:speech with id: 5514770918770032180, has already been processed
+INFO:root:speech with id: -6010466436873844575, has already been processed
+INFO:root:speech with id: -2341233541939090200, has already been processed
+INFO:root:speech with id: -4505812519474647680, has already been processed
+INFO:root:speech with id: -3993423503669237726, has already been processed
+INFO:root:speech with id: 7413765362619824933, has already been processed
+INFO:root:speech with id: 3520778202582466075, has already been processed
+INFO:root:speech with id: -2168755191794840837, has already been processed
+INFO:root:speech with id: -7933149881113037571, has already been processed
+INFO:root:speech with id: -4268820059867143313, has already been processed
+INFO:root:speech with id: -1191489830657810685, has already been processed
+INFO:root:speech with id: -9022822864269314206, has already been processed
+INFO:root:speech with id: 4281311656099219042, has already been processed
+INFO:root:speech with id: -7985095274939253477, has already been processed
+INFO:root:speech with id: 4360677231986178810, has already been processed
+INFO:root:speech with id: -945251799692752574, has already been processed
+INFO:root:speech with id: 7686639962745193541, has already been processed
+INFO:root:speech with id: 5481581186077735201, has already been processed
+INFO:root:speech with id: 6880991925867532286, has already been processed
+INFO:root:speech with id: -385989536361526790, has already been processed
+INFO:root:speech with id: 8168457816388048117, has already been processed
+INFO:root:speech with id: -4616717561336444951, has already been processed
+INFO:root:speech with id: -3276003114811941934, has already been processed
+INFO:root:speech with id: -4076593929129100554, has already been processed
+INFO:root:speech with id: 1981708996782591137, has already been processed
+INFO:root:speech with id: -5527773864513497475, has already been processed
+INFO:root:speech with id: 4634501913052994759, has already been processed
+INFO:root:speech with id: -4338931783676059908, has already been processed
+INFO:root:speech with id: 1838250358465215051, has already been processed
+INFO:root:speech with id: 6771194663495422939, has already been processed
+INFO:root:speech with id: -7190134022329053601, has already been processed
+INFO:root:speech with id: 4567722071617256714, has already been processed
+INFO:root:speech with id: 1757814718598612570, has already been processed
+INFO:root:speech with id: 8627997934549302517, has already been processed
+INFO:root:speech with id: -6156831608553302967, has already been processed
+INFO:root:speech with id: 2907269778269104357, has already been processed
+INFO:root:speech with id: -3050213119519797487, has already been processed
+INFO:root:speech with id: -438876358119629703, has already been processed
+INFO:root:speech with id: 8656045031423209275, has already been processed
+INFO:root:speech with id: -1771860061682096174, has already been processed
+INFO:root:speech with id: 572489552766745678, has already been processed
+INFO:root:speech with id: 7630408165127139319, has already been processed
+INFO:root:speech with id: 4928829009226067169, has already been processed
+INFO:root:speech with id: -5812622538651842317, has already been processed
+INFO:root:speech with id: 6989673099955146470, has already been processed
+INFO:root:speech with id: 2486672976953633187, has already been processed
+INFO:root:speech with id: 2655544574374140880, has already been processed
+INFO:root:speech with id: -5588272309366776655, has already been processed
+INFO:root:speech with id: 2369461786421514965, has already been processed
+INFO:root:speech with id: 3045147482942219517, has already been processed
+INFO:root:speech with id: 1332413403200796225, has already been processed
+INFO:root:speech with id: -956235729541200539, has already been processed
+INFO:root:speech with id: -3003059617346544902, has already been processed
+INFO:root:speech with id: 6380922696650965547, has already been processed
+INFO:root:speech with id: -6058674241923369745, has already been processed
+INFO:root:speech with id: -6089651612842953867, has already been processed
+INFO:root:speech with id: -217897473829993936, has already been processed
+INFO:root:speech with id: -3863907460123580241, has already been processed
+INFO:root:speech with id: 5129759570267064880, has already been processed
+INFO:root:speech with id: 2645420757844505570, has already been processed
+INFO:root:speech with id: -4438512723487063974, has already been processed
+INFO:root:speech with id: 7824616986803988451, has already been processed
+INFO:root:speech with id: 8063412027268314804, has already been processed
+INFO:root:speech with id: -5113010366432927092, has already been processed
+INFO:root:speech with id: 7526454951244846081, has already been processed
+INFO:root:speech with id: 4194463528236673643, has already been processed
+INFO:root:speech with id: -3518315664992802016, has already been processed
+INFO:root:speech with id: 3390156385857374441, has already been processed
+INFO:root:speech with id: -6714925425167184325, has already been processed
+INFO:root:speech with id: -5946673938866144945, has already been processed
+INFO:root:speech with id: -6751324324696155601, has already been processed
+INFO:root:speech with id: 4628218588745878473, has already been processed
+INFO:root:speech with id: 1111761578070384885, has already been processed
+INFO:root:speech with id: 2437740376143181128, has already been processed
+INFO:root:speech with id: -3631415209096305804, has already been processed
+INFO:root:speech with id: -5431288373297985081, has already been processed
+INFO:root:speech with id: 8293456423240425359, has already been processed
+INFO:root:speech with id: 7568439328828891548, has already been processed
+INFO:root:speech with id: 8234114188939426778, has already been processed
+INFO:root:speech with id: -2409490211589310244, has already been processed
+INFO:root:speech with id: 378736381672418153, has already been processed
+INFO:root:speech with id: -8091856963853003086, has already been processed
+INFO:root:speech with id: 8814906227092860009, has already been processed
+INFO:root:speech with id: 5866688430863990917, has already been processed
+INFO:root:speech with id: -1618232499822314836, has already been processed
+INFO:root:speech with id: 3329787446450838038, has already been processed
+INFO:root:speech with id: 8230405958774804894, has already been processed
+INFO:root:speech with id: -6532557977158487972, has already been processed
+INFO:root:speech with id: 3129735703394442746, has already been processed
+INFO:root:speech with id: 2020162483206648804, has already been processed
+INFO:root:speech with id: -5773624967456397305, has already been processed
+INFO:root:speech with id: 3670965195267476891, has already been processed
+INFO:root:speech with id: 858296644364822160, has already been processed
+INFO:root:speech with id: -1534592434166511309, has already been processed
+INFO:root:speech with id: 6822814930791033530, has already been processed
+INFO:root:speech with id: 2985313074680894658, has already been processed
+INFO:root:speech with id: 1432465729748151041, has already been processed
+INFO:root:speech with id: -3839125019152351450, has already been processed
+INFO:root:speech with id: -8820354121191460689, has already been processed
+INFO:root:speech with id: 7500986032580211782, has already been processed
+INFO:root:speech with id: 1208922259427946978, has already been processed
+INFO:root:speech with id: 4193226273636420963, has already been processed
+INFO:root:speech with id: -5017925259500904359, has already been processed
+INFO:root:speech with id: 2235436637065768167, has already been processed
+INFO:root:speech with id: 3666769950694896552, has already been processed
+INFO:root:speech with id: -903360445057051247, has already been processed
+INFO:root:speech with id: -3828680185811857790, has already been processed
+INFO:root:speech with id: -4763021015095116291, has already been processed
+INFO:root:speech with id: 2701608492241183682, has already been processed
+INFO:root:speech with id: -4040890826434560028, has already been processed
+INFO:root:speech with id: -7953248616218801073, has already been processed
+INFO:root:speech with id: 1190872160049709098, has already been processed
+INFO:root:speech with id: -4029947269667777914, has already been processed
+INFO:root:speech with id: 6857445295148850613, has already been processed
+INFO:root:speech with id: 3249206137807584665, has already been processed
+INFO:root:speech with id: 385451108904416628, has already been processed
+INFO:root:speech with id: -6388881814288145743, has already been processed
+INFO:root:speech with id: 1159787180614107159, has already been processed
+INFO:root:speech with id: 4850930791886954127, has already been processed
+INFO:root:speech with id: 7783665763228105873, has already been processed
+INFO:root:speech with id: -9206907342313714545, has already been processed
+INFO:root:speech with id: -8987817090795513303, has already been processed
+INFO:root:speech with id: -5062292249658569636, has already been processed
+INFO:root:speech with id: -3956165254312830339, has already been processed
+INFO:root:speech with id: 6964860176067233567, has already been processed
+INFO:root:speech with id: 7611356506787809935, has already been processed
+INFO:root:speech with id: -6840664272181678573, has already been processed
+INFO:root:speech with id: -2083186810034634233, has already been processed
+INFO:root:speech with id: 5791449325582633595, has already been processed
+INFO:root:speech with id: -413391511766967839, has already been processed
+INFO:root:speech with id: -4362633272893268609, has already been processed
+INFO:root:speech with id: 2589147529787731046, has already been processed
+INFO:root:speech with id: -5691451666739131928, has already been processed
+INFO:root:speech with id: -9004116267985931737, has already been processed
+INFO:root:speech with id: 7921427802066076830, has already been processed
+INFO:root:speech with id: -2129766296580319367, has already been processed
+INFO:root:speech with id: -8486371523123647843, has already been processed
+INFO:root:speech with id: 5682618053128151733, has already been processed
+INFO:root:speech with id: 7741217805378612805, has already been processed
+INFO:root:speech with id: -7673028108581773045, has already been processed
+INFO:root:speech with id: 4409512206077681620, has already been processed
+INFO:root:speech with id: 3077770189986089402, has already been processed
+INFO:root:speech with id: -3460304326032766183, has already been processed
+INFO:root:speech with id: -1432215935953468861, has already been processed
+INFO:root:speech with id: -2274005545094940124, has already been processed
+INFO:root:speech with id: 5003733197170648651, has already been processed
+INFO:root:speech with id: 689163810466640533, has already been processed
+INFO:root:speech with id: -6228889831467069833, has already been processed
+INFO:root:speech with id: -7538370155037697373, has already been processed
+INFO:root:speech with id: -2871564713202202429, has already been processed
+INFO:root:speech with id: -699505408965675437, has already been processed
+INFO:root:speech with id: -8812263708843650146, has already been processed
+INFO:root:speech with id: 9122028751750069241, has already been processed
+INFO:root:speech with id: -657848556508807241, has already been processed
+INFO:root:speech with id: 2035832935497953129, has already been processed
+INFO:root:speech with id: -4779889853519928570, has already been processed
+INFO:root:speech with id: 7397855270503268978, has already been processed
+INFO:root:speech with id: -828991130633803579, has already been processed
+INFO:root:speech with id: -6555903365077849023, has already been processed
+INFO:root:speech with id: 7338635181552863307, has already been processed
+INFO:root:speech with id: 3299470694459107062, has already been processed
+INFO:root:speech with id: -6983707980189381599, has already been processed
+INFO:root:speech with id: -7996354636639754700, has already been processed
+INFO:root:speech with id: -2180354754505240762, has already been processed
+INFO:root:speech with id: -9169957061454340418, has already been processed
+INFO:root:speech with id: 555056043495621222, has already been processed
+INFO:root:speech with id: 275506826269842062, has already been processed
+INFO:root:speech with id: 7093351575398131257, has already been processed
+INFO:root:speech with id: -7493704080354763895, has already been processed
+INFO:root:speech with id: -4731504981886159522, has already been processed
+INFO:root:speech with id: 702118008712867838, has already been processed
+INFO:root:speech with id: -1878848765029714384, has already been processed
+INFO:root:speech with id: 6376282412286120691, has already been processed
+INFO:root:speech with id: 7934040371177429038, has already been processed
+INFO:root:speech with id: 2259570780418277268, has already been processed
+INFO:root:speech with id: 6517188897484855247, has already been processed
+INFO:root:speech with id: -2439214702846957460, has already been processed
+INFO:root:speech with id: 9032868206407713781, has already been processed
+INFO:root:speech with id: -9132945586614374608, has already been processed
+INFO:root:speech with id: 5362930036000396132, has already been processed
+INFO:root:speech with id: -8663119333556520566, has already been processed
+INFO:root:speech with id: -946427066855715409, has already been processed
+INFO:root:speech with id: 8828650598720776668, has already been processed
+INFO:root:speech with id: 8482036474048207674, has already been processed
+INFO:root:speech with id: 381967746297793025, has already been processed
+INFO:root:speech with id: -7950052714558753307, has already been processed
+INFO:root:speech with id: 1036191095878313766, has already been processed
+INFO:root:speech with id: 8871009815037809832, has already been processed
+INFO:root:speech with id: -7498534558960430352, has already been processed
+INFO:root:speech with id: -8586832677590117185, has already been processed
+INFO:root:speech with id: 2102272258882550157, has already been processed
+INFO:root:speech with id: -7802933668870703228, has already been processed
+INFO:root:speech with id: -2139571124217956473, has already been processed
+INFO:root:speech with id: 761814267019231197, has already been processed
+INFO:root:speech with id: -8747849713905146155, has already been processed
+INFO:root:speech with id: -2547112441898773593, has already been processed
+INFO:root:speech with id: 6805409021850407158, has already been processed
+INFO:root:speech with id: -6580058052841563592, has already been processed
+INFO:root:speech with id: 2917005747818784956, has already been processed
+INFO:root:speech with id: -3571994065620472064, has already been processed
+INFO:root:speech with id: 7105936805105771536, has already been processed
+INFO:root:speech with id: -5272148936303261520, has already been processed
+INFO:root:speech with id: -7377013496996774368, has already been processed
+INFO:root:speech with id: 8350337279482725392, has already been processed
+INFO:root:speech with id: 5546703654580806841, has already been processed
+INFO:root:speech with id: 7022279811587507316, has already been processed
+INFO:root:speech with id: 4565429267864760026, has already been processed
+INFO:root:speech with id: -6302521108301865819, has already been processed
+INFO:root:speech with id: 6505523875139066054, has already been processed
+INFO:root:speech with id: -5408576603313089657, has already been processed
+INFO:root:speech with id: -2029287571061829830, has already been processed
+INFO:root:speech with id: 4545955103711375567, has already been processed
+INFO:root:speech with id: 9171601857496366913, has already been processed
+INFO:root:speech with id: 7220210410352702191, has already been processed
+INFO:root:speech with id: 7383071815811856965, has already been processed
+INFO:root:speech with id: -8124119844368210651, has already been processed
+INFO:root:speech with id: 1443861060162011377, has already been processed
+INFO:root:speech with id: 6405376085948252570, has already been processed
+INFO:root:speech with id: 5169422817262344417, has already been processed
+INFO:root:speech with id: -1745953532664170071, has already been processed
+INFO:root:speech with id: -3229674694424828726, has already been processed
+INFO:root:speech with id: -8537276715511003297, has already been processed
+INFO:root:speech with id: -6194171530025969276, has already been processed
+INFO:root:speech with id: 4471187648572324125, has already been processed
+INFO:root:speech with id: -6071565200890939654, has already been processed
+INFO:root:speech with id: 717540881363842713, has already been processed
+INFO:root:speech with id: -1828880127933511646, has already been processed
+INFO:root:speech with id: 2855409097334190867, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/hilary-benn-why-natural-environment-matters/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+INFO:root:speech with id: -4863800219898130635, has already been processed
+INFO:root:speech with id: -2959514120341632232, has already been processed
+INFO:root:speech with id: 8695181616270079856, has already been processed
+INFO:root:speech with id: 5756279500391155816, has already been processed
+INFO:root:speech with id: 6398150000403320193, has already been processed
+INFO:root:speech with id: -552727122709447598, has already been processed
+INFO:root:speech with id: -3599366963808450585, has already been processed
+INFO:root:speech with id: 6947395550704911004, has already been processed
+INFO:root:speech with id: -7687886947124473065, has already been processed
+INFO:root:speech with id: -946555245873066488, has already been processed
+INFO:root:speech with id: -19719643332733220, has already been processed
+INFO:root:speech with id: 7578504647295211013, has already been processed
+INFO:root:speech with id: 9048637959827250290, has already been processed
+INFO:root:speech with id: 6306913907237998772, has already been processed
+INFO:root:speech with id: 8201824488490570658, has already been processed
+INFO:root:speech with id: 4402515029056732368, has already been processed
+INFO:root:speech with id: 670202557289689928, has already been processed
+INFO:root:speech with id: 3324762971436018817, has already been processed
+INFO:root:speech with id: 26109740907247643, has already been processed
+INFO:root:speech with id: -7944280866855827409, has already been processed
+INFO:root:speech with id: 2653517280698481170, has already been processed
+INFO:root:speech with id: -6479484658861503145, has already been processed
+INFO:root:speech with id: 2850295003626191767, has already been processed
+INFO:root:speech with id: 8251129106555548929, has already been processed
+INFO:root:speech with id: -6034389724750197651, has already been processed
+INFO:root:speech with id: -8667496938702648055, has already been processed
+INFO:root:speech with id: -5287702793530762159, has already been processed
+INFO:root:speech with id: 3632992434487829862, has already been processed
+INFO:root:speech with id: -6154744790345645485, has already been processed
+INFO:root:speech with id: 7874985461774424773, has already been processed
+INFO:root:speech with id: -2823604829843038843, has already been processed
+INFO:root:speech with id: -2567833939333214522, has already been processed
+INFO:root:speech with id: -3573239085098524753, has already been processed
+INFO:root:speech with id: -6768283825321963472, has already been processed
+INFO:root:speech with id: -5856745058203939775, has already been processed
+INFO:root:speech with id: -6785642946134552281, has already been processed
+INFO:root:speech with id: 3720810216155229229, has already been processed
+INFO:root:speech with id: 472797964442000778, has already been processed
+INFO:root:speech with id: 3691126686319661652, has already been processed
+INFO:root:speech with id: 2195297433210809858, has already been processed
+INFO:root:speech with id: 8105559333240175612, has already been processed
+INFO:root:speech with id: -1737920656504748952, has already been processed
+INFO:root:speech with id: -2866216944397850344, has already been processed
+INFO:root:speech with id: -7134191597796833088, has already been processed
+INFO:root:speech with id: -8580261592972127127, has already been processed
+INFO:root:speech with id: -8712573243006710399, has already been processed
+INFO:root:speech with id: -9123974801000533576, has already been processed
+INFO:root:speech with id: 6241974026687528665, has already been processed
+INFO:root:speech with id: 588624151947267581, has already been processed
+INFO:root:speech with id: -3507582622894769221, has already been processed
+INFO:root:speech with id: -1566092025324606571, has already been processed
+INFO:root:speech with id: -2647521153437005129, has already been processed
+INFO:root:speech with id: 1004591243586173483, has already been processed
+INFO:root:speech with id: -132499173621608452, has already been processed
+INFO:root:speech with id: -5147416317041031179, has already been processed
+INFO:root:speech with id: 6911365629731709211, has already been processed
+INFO:root:speech with id: -9117253605228461937, has already been processed
+INFO:root:speech with id: -8461149223129820423, has already been processed
+INFO:root:speech with id: -1193143866922926052, has already been processed
+INFO:root:speech with id: -7380181976629775627, has already been processed
+INFO:root:speech with id: -4329318659523634752, has already been processed
+INFO:root:speech with id: -4822717592698079192, has already been processed
+INFO:root:speech with id: -4264028070354156953, has already been processed
+INFO:root:speech with id: -2944893977239427054, has already been processed
+INFO:root:speech with id: 52321363268423415, has already been processed
+INFO:root:speech with id: -970838263397748551, has already been processed
+INFO:root:speech with id: 3762928065277965749, has already been processed
+INFO:root:speech with id: 6400904219817344696, has already been processed
+INFO:root:speech with id: -6385439920711318534, has already been processed
+INFO:root:speech with id: -1599431307951043179, has already been processed
+INFO:root:speech with id: 7571346948518078869, has already been processed
+INFO:root:speech with id: -664643862141060257, has already been processed
+INFO:root:speech with id: 5522041483466259055, has already been processed
+INFO:root:speech with id: 2267997810509339464, has already been processed
+INFO:root:speech with id: -7288143312048406084, has already been processed
+INFO:root:speech with id: -5102490219355593038, has already been processed
+INFO:root:speech with id: -6747667594780957595, has already been processed
+INFO:root:speech with id: -24609322982365099, has already been processed
+INFO:root:speech with id: -1510325071631999843, has already been processed
+INFO:root:speech with id: -6778680430975134582, has already been processed
+INFO:root:speech with id: 1521312671924245550, has already been processed
+INFO:root:speech with id: 5208619922920582371, has already been processed
+INFO:root:speech with id: 6642596372929258025, has already been processed
+INFO:root:speech with id: -6512679255747572086, has already been processed
+INFO:root:speech with id: 4286846372871197397, has already been processed
+INFO:root:speech with id: -3465321366838769936, has already been processed
+INFO:root:speech with id: 274280490694676682, has already been processed
+INFO:root:speech with id: -7688808867466456938, has already been processed
+INFO:root:speech with id: 5338702876033634522, has already been processed
+INFO:root:speech with id: -8998999528867204971, has already been processed
+INFO:root:speech with id: 9178898505866631839, has already been processed
+INFO:root:speech with id: 2544576411501226786, has already been processed
+INFO:root:speech with id: 4404767367491911218, has already been processed
+INFO:root:speech with id: -9206606527960779925, has already been processed
+INFO:root:speech with id: -3825273314995251437, has already been processed
+INFO:root:speech with id: -2158025239003768312, has already been processed
+INFO:root:speech with id: 8053151110689583894, has already been processed
+INFO:root:speech with id: -2077340067685138115, has already been processed
+INFO:root:speech with id: -3534400732783781550, has already been processed
+INFO:root:speech with id: 6195683715794722053, has already been processed
+INFO:root:speech with id: 2939960210019195227, has already been processed
+INFO:root:speech with id: 4296831623773595732, has already been processed
+INFO:root:speech with id: -5030203070618169250, has already been processed
+INFO:root:speech with id: 1552813314570660962, has already been processed
+INFO:root:speech with id: -6619254880665771667, has already been processed
+INFO:root:speech with id: 1532095287120473699, has already been processed
+INFO:root:speech with id: 2419887426561654528, has already been processed
+INFO:root:speech with id: 2858479989055435758, has already been processed
+INFO:root:speech with id: 9082833674921618792, has already been processed
+INFO:root:speech with id: 505458476086593808, has already been processed
+INFO:root:speech with id: -1070942301906606828, has already been processed
+INFO:root:speech with id: 3384077975766736286, has already been processed
+INFO:root:speech with id: 5960158271772354994, has already been processed
+INFO:root:speech with id: 234497989724101724, has already been processed
+INFO:root:speech with id: 5155069170915036905, has already been processed
+INFO:root:speech with id: 6837029551137630729, has already been processed
+INFO:root:speech with id: -543933118255412146, has already been processed
+INFO:root:speech with id: 6045068486441621433, has already been processed
+INFO:root:speech with id: 4750669919871586848, has already been processed
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/wp-content/uploads/2015/09/blunkettspeech2001.pdf
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 49, in scrape_speech
+    speech_dict["date_published"] = extract_date_published(content)
+  File "scripts/speech_scrape.py", line 62, in extract_date_published
+    time_tag = content.find('time', class_="published")
+AttributeError: 'NoneType' object has no attribute 'find'
+INFO:root:speech with id: -180116045817390205, has already been processed
+INFO:root:speech with id: 6956410688029272839, has already been processed
+INFO:root:speech with id: -195651659222683601, has already been processed
+INFO:root:speech with id: -3476482822345801948, has already been processed
+INFO:root:speech with id: -4332637710286679224, has already been processed
+INFO:root:speech with id: -4298949458215476539, has already been processed
+INFO:root:speech with id: -3688412620526589747, has already been processed
+INFO:root:speech with id: -2136185957906596634, has already been processed
+INFO:root:speech with id: -4490997598199013405, has already been processed
+INFO:root:speech with id: 5493749351971468394, has already been processed
+INFO:root:speech with id: -6733981033811741401, has already been processed
+INFO:root:speech with id: -848019134218983443, has already been processed
+INFO:root:speech with id: 5940115778737919757, has already been processed
+INFO:root:speech with id: 6917223359667718603, has already been processed
+INFO:root:speech with id: 6770987124957492501, has already been processed
+INFO:root:speech with id: -3080652292446187148, has already been processed
+INFO:root:speech with id: -8442782281519969765, has already been processed
+INFO:root:speech with id: 9159877130155139603, has already been processed
+INFO:root:speech with id: 5131472142438414320, has already been processed
+INFO:root:speech with id: 5301462406239459021, has already been processed
+INFO:root:speech with id: -799170056184563044, has already been processed
+INFO:root:speech with id: -80380361290092657, has already been processed
+INFO:root:speech with id: 3504764187688357631, has already been processed
+INFO:root:speech with id: -7517633681802939358, has already been processed
+INFO:root:speech with id: 1213097089529381983, has already been processed
+INFO:root:speech with id: 7510022383682295220, has already been processed
+INFO:root:speech with id: -4078964754500789330, has already been processed
+INFO:root:speech with id: -2985252255448356752, has already been processed
+INFO:root:speech with id: 2595607488445703101, has already been processed
+INFO:root:speech with id: 6384499726066935739, has already been processed
+INFO:root:speech with id: -5222413160935432836, has already been processed
+INFO:root:speech with id: -5308011608003054765, has already been processed
+INFO:root:speech with id: 569670856803739003, has already been processed
+INFO:root:speech with id: -8475307477900594759, has already been processed
+INFO:root:speech with id: -6388266556523797834, has already been processed
+INFO:root:speech with id: -1020122019642632536, has already been processed
+INFO:root:speech with id: -4770279864001063837, has already been processed
+INFO:root:speech with id: -692017629326510123, has already been processed
+INFO:root:speech with id: 4670437549239060527, has already been processed
+INFO:root:speech with id: -401832651595824324, has already been processed
+INFO:root:speech with id: 7805110418722503732, has already been processed
+INFO:root:speech with id: 4678886082855220559, has already been processed
+INFO:root:speech with id: -3069961171041611210, has already been processed
+INFO:root:speech with id: -6014380399233760177, has already been processed
+INFO:root:speech with id: -2943682316951495893, has already been processed
+INFO:root:speech with id: 3384456366721889975, has already been processed
+INFO:root:speech with id: 2640835552172267873, has already been processed
+INFO:root:speech with id: 7622665448421693590, has already been processed
+INFO:root:speech with id: -2542086053412616639, has already been processed
+INFO:root:speech with id: -4915182553015834284, has already been processed
+INFO:root:speech with id: 3862137175809615040, has already been processed
+INFO:root:speech with id: -7580571478930980552, has already been processed
+INFO:root:speech with id: -6122116431279003048, has already been processed
+INFO:root:speech with id: 872916364856758037, has already been processed
+INFO:root:speech with id: -5197696769276121801, has already been processed
+INFO:root:speech with id: -1792103781691193808, has already been processed
+INFO:root:speech with id: -2520470812511039798, has already been processed
+INFO:root:speech with id: 6184867052346075077, has already been processed
+INFO:root:speech with id: 3129048745485371303, has already been processed
+INFO:root:speech with id: 3988762571369432473, has already been processed
+INFO:root:speech with id: -9105475628133382023, has already been processed
+INFO:root:speech with id: 7518574626931830787, has already been processed
+INFO:root:speech with id: -6980657907631638855, has already been processed
+INFO:root:speech with id: 5500527212667131153, has already been processed
+INFO:root:speech with id: -7418973777518198567, has already been processed
+INFO:root:speech with id: -5342170560683909268, has already been processed
+INFO:root:speech with id: 5686589763252875670, has already been processed
+INFO:root:speech with id: -6460009311530398212, has already been processed
+INFO:root:speech with id: 1439547464929099328, has already been processed
+INFO:root:speech with id: 3701599847378949274, has already been processed
+INFO:root:speech with id: -5738864072487332887, has already been processed
+INFO:root:speech with id: 708020977554262532, has already been processed
+INFO:root:speech with id: -1083013562364847498, has already been processed
+INFO:root:speech with id: -4467535490134133836, has already been processed
+INFO:root:speech with id: 926292229970958250, has already been processed
+INFO:root:speech with id: -7249238667959779897, has already been processed
+INFO:root:speech with id: -7361033924001984764, has already been processed
+INFO:root:speech with id: 1602241692428465705, has already been processed
+INFO:root:speech with id: 3878745333631753514, has already been processed
+INFO:root:speech with id: 7785313339520387515, has already been processed
+INFO:root:speech with id: -6681748895006194400, has already been processed
+INFO:root:speech with id: 1083928460820230808, has already been processed
+INFO:root:speech with id: -4369373611944081468, has already been processed
+INFO:root:speech with id: 3010552423206197933, has already been processed
+INFO:root:speech with id: 1777821356894051802, has already been processed
+INFO:root:speech with id: 2810482377654220463, has already been processed
+INFO:root:speech with id: -1613677076184578118, has already been processed
+INFO:root:speech with id: -8488052562631861857, has already been processed
+INFO:root:speech with id: -804840751511961000, has already been processed
+INFO:root:speech with id: 4041334671249694214, has already been processed
+INFO:root:speech with id: -1061847321284804505, has already been processed
+INFO:root:speech with id: -7033896169023457272, has already been processed
+INFO:root:speech with id: -75181071603466711, has already been processed
+INFO:root:speech with id: -1998577537277744307, has already been processed
+INFO:root:speech with id: -3859573807266700365, has already been processed
+INFO:root:speech with id: 2865649583060978957, has already been processed
+INFO:root:speech with id: -7990714014253294833, has already been processed
+INFO:root:speech with id: -7579148608823069622, has already been processed
+INFO:root:speech with id: 2072508383824598562, has already been processed
+INFO:root:speech with id: -2336472543918927905, has already been processed
+INFO:root:speech with id: 510525250537799181, has already been processed
+INFO:root:speech with id: 7603496098817287694, has already been processed
+INFO:root:speech with id: 7265817891677760041, has already been processed
+INFO:root:speech with id: 1111514628299991222, has already been processed
+INFO:root:speech with id: 1655312446266026597, has already been processed
+INFO:root:speech with id: 8438379243646044950, has already been processed
+INFO:root:speech with id: -7429144725827593946, has already been processed
+INFO:root:speech with id: -91339296422712616, has already been processed
+INFO:root:speech with id: 6021004950090701703, has already been processed
+INFO:root:speech with id: -3586750976536695763, has already been processed
+INFO:root:speech with id: -5622048890059944208, has already been processed
+INFO:root:speech with id: 3903990523799472698, has already been processed
+INFO:root:speech with id: 5362399502732818380, has already been processed
+INFO:root:speech with id: 7694781965143277360, has already been processed
+INFO:root:speech with id: 4283042048745195804, has already been processed
+INFO:root:speech with id: -7836817297684483603, has already been processed
+INFO:root:speech with id: -4104085017492855437, has already been processed
+INFO:root:speech with id: -206093685832742460, has already been processed
+INFO:root:speech with id: 7585617623260747237, has already been processed
+INFO:root:speech with id: -3617375749339892074, has already been processed
+INFO:root:speech with id: 3198685966835691066, has already been processed
+INFO:root:speech with id: -3646148191405255587, has already been processed
+INFO:root:speech with id: 167201801923313504, has already been processed
+INFO:root:speech with id: 5663399345718080618, has already been processed
+INFO:root:speech with id: 212343383388516806, has already been processed
+INFO:root:speech with id: 439369044700790572, has already been processed
+INFO:root:speech with id: 7021237148406323592, has already been processed
+INFO:root:speech with id: -4212209117842330510, has already been processed
+INFO:root:speech with id: -738072355494304117, has already been processed
+INFO:root:speech with id: 1698149819083379408, has already been processed
+INFO:root:speech with id: 8424587615666407450, has already been processed
+INFO:root:speech with id: -5984528181781121612, has already been processed
+INFO:root:speech with id: -6241112060107032995, has already been processed
+INFO:root:speech with id: -3576623572858717316, has already been processed
+INFO:root:speech with id: 2306891701375925238, has already been processed
+INFO:root:speech with id: -5788208823027337898, has already been processed
+INFO:root:speech with id: 4699799998001724411, has already been processed
+INFO:root:speech with id: 3250979105734944103, has already been processed
+INFO:root:speech with id: -3453501887510568427, has already been processed
+INFO:root:speech with id: 2326047399427001857, has already been processed
+INFO:root:speech with id: -5767468889367612549, has already been processed
+INFO:root:speech with id: 2432098202032812461, has already been processed
+INFO:root:speech with id: 5078781503183313084, has already been processed
+INFO:root:speech with id: 4215425196872403133, has already been processed
+INFO:root:speech with id: 7443941867764277388, has already been processed
+INFO:root:speech with id: -5028978640017151534, has already been processed
+INFO:root:speech with id: -4819916746165893996, has already been processed
+INFO:root:speech with id: -412681849410549089, has already been processed
+INFO:root:speech with id: 5491627536512994749, has already been processed
+INFO:root:speech with id: -7512626724543434061, has already been processed
+INFO:root:speech with id: 8112882906924562575, has already been processed
+INFO:root:speech with id: 65632208124801882, has already been processed
+INFO:root:speech with id: 2798750251235177146, has already been processed
+INFO:root:speech with id: 8578687209315667158, has already been processed
+INFO:root:speech with id: -7761476053757481676, has already been processed
+INFO:root:speech with id: 7662129322226256918, has already been processed
+INFO:root:speech with id: 451881638498937795, has already been processed
+INFO:root:speech with id: 2321324620637176100, has already been processed
+INFO:root:speech with id: 4489409409988653767, has already been processed
+INFO:root:speech with id: -8027106532930753706, has already been processed
+INFO:root:speech with id: -8753908121809896238, has already been processed
+INFO:root:speech with id: -1020958473638735920, has already been processed
+INFO:root:speech with id: 2489929153282667983, has already been processed
+INFO:root:speech with id: -89634327327185394, has already been processed
+INFO:root:speech with id: 4027772581945797409, has already been processed
+INFO:root:speech with id: -6267478643112919844, has already been processed
+INFO:root:speech with id: -8116207587035997284, has already been processed
+INFO:root:speech with id: 1029730094910562149, has already been processed
+INFO:root:speech with id: 7821750655392888284, has already been processed
+INFO:root:speech with id: 2993273049335954003, has already been processed
+INFO:root:speech with id: 1487312547551803475, has already been processed
+INFO:root:speech with id: 5019758864007958181, has already been processed
+INFO:root:speech with id: 4239254243917625535, has already been processed
+INFO:root:speech with id: -1852512872392255657, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/gordon-brown-2008-speech-to-the-health-service-journal/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+INFO:root:speech with id: -61649891546436437, has already been processed
+INFO:root:speech with id: 5300954937714672490, has already been processed
+INFO:root:speech with id: 7074342757122789437, has already been processed
+INFO:root:speech with id: 4435754199558765028, has already been processed
+INFO:root:speech with id: 8587748978156331820, has already been processed
+INFO:root:speech with id: 3627966689161338083, has already been processed
+INFO:root:speech with id: 3096216935195418049, has already been processed
+INFO:root:speech with id: -4052228039987240913, has already been processed
+INFO:root:speech with id: -6837489514526964509, has already been processed
+INFO:root:speech with id: 7044185730002167780, has already been processed
+INFO:root:speech with id: 8939565404311629761, has already been processed
+INFO:root:speech with id: -2858339634105893902, has already been processed
+INFO:root:speech with id: 1521364742374267690, has already been processed
+INFO:root:speech with id: 5357046606863583104, has already been processed
+INFO:root:speech with id: 8015354103154574615, has already been processed
+INFO:root:speech with id: -8459755235456321624, has already been processed
+INFO:root:speech with id: -5993894610307164811, has already been processed
+INFO:root:speech with id: -5692082728728400280, has already been processed
+INFO:root:speech with id: 7152506252365290041, has already been processed
+INFO:root:speech with id: 5150019214409364237, has already been processed
+INFO:root:speech with id: 5163437045388818001, has already been processed
+INFO:root:speech with id: 4899415774335870056, has already been processed
+INFO:root:speech with id: 390657592944402751, has already been processed
+INFO:root:speech with id: 9134538627438395152, has already been processed
+INFO:root:speech with id: -196476825085323945, has already been processed
+INFO:root:speech with id: 6048317892712766816, has already been processed
+INFO:root:speech with id: 362395965215312307, has already been processed
+INFO:root:speech with id: 7738387515143115965, has already been processed
+INFO:root:speech with id: -5107234517332600461, has already been processed
+INFO:root:speech with id: 7062399823148605507, has already been processed
+INFO:root:speech with id: -5584201295314234414, has already been processed
+INFO:root:speech with id: -2326601118121139030, has already been processed
+INFO:root:speech with id: 4855637872607952503, has already been processed
+INFO:root:speech with id: 3061757927237476023, has already been processed
+INFO:root:speech with id: -6934153556720682745, has already been processed
+INFO:root:speech with id: -3770545186920150350, has already been processed
+INFO:root:speech with id: 1199986828311743907, has already been processed
+INFO:root:speech with id: 593565046489546296, has already been processed
+INFO:root:speech with id: -5004609980212610637, has already been processed
+INFO:root:speech with id: 1890623347888227329, has already been processed
+INFO:root:speech with id: -115067469448175797, has already been processed
+INFO:root:speech with id: 5698695490723479502, has already been processed
+INFO:root:speech with id: 5644710906643230527, has already been processed
+INFO:root:speech with id: -3669396047354451543, has already been processed
+INFO:root:speech with id: 5558450059275517498, has already been processed
+INFO:root:speech with id: 7819296620558120830, has already been processed
+INFO:root:speech with id: 3784692480167616724, has already been processed
+INFO:root:speech with id: -8732931058454353054, has already been processed
+INFO:root:speech with id: -4055219836273096948, has already been processed
+INFO:root:speech with id: -3648023645525983766, has already been processed
+INFO:root:speech with id: -7320635456807623255, has already been processed
+INFO:root:speech with id: -5687236447100522195, has already been processed
+INFO:root:speech with id: -458445234509604132, has already been processed
+INFO:root:speech with id: 2142537257749265811, has already been processed
+INFO:root:speech with id: 4125123331257331387, has already been processed
+INFO:root:speech with id: -7366833495450684431, has already been processed
+INFO:root:speech with id: -4599632956822212155, has already been processed
+INFO:root:speech with id: -4212968887834334161, has already been processed
+INFO:root:speech with id: -8736052103034091008, has already been processed
+INFO:root:speech with id: -2130314513721916992, has already been processed
+INFO:root:speech with id: -1519253189729862732, has already been processed
+INFO:root:speech with id: -2144552407297798530, has already been processed
+INFO:root:speech with id: -5823100444764214368, has already been processed
+INFO:root:speech with id: -7454890208199536568, has already been processed
+INFO:root:speech with id: 1019406317406224877, has already been processed
+INFO:root:speech with id: -5984415572895618870, has already been processed
+INFO:root:speech with id: -2482096825124531147, has already been processed
+INFO:root:speech with id: 9080801748846153861, has already been processed
+INFO:root:speech with id: -1264503453724455093, has already been processed
+INFO:root:speech with id: 6822241365032961502, has already been processed
+INFO:root:speech with id: 3646947739300761797, has already been processed
+INFO:root:speech with id: -2860882793799710082, has already been processed
+INFO:root:speech with id: -1497832163909178501, has already been processed
+INFO:root:speech with id: -6744900652173859202, has already been processed
+INFO:root:speech with id: 643022690802023852, has already been processed
+INFO:root:speech with id: 5872438993320054223, has already been processed
+INFO:root:speech with id: -5871580439266631171, has already been processed
+INFO:root:speech with id: -5991790644614128035, has already been processed
+INFO:root:speech with id: 4329947777561086454, has already been processed
+INFO:root:speech with id: -8204525246768773381, has already been processed
+INFO:root:speech with id: 2881978868698755942, has already been processed
+INFO:root:speech with id: 7156384816586889000, has already been processed
+INFO:root:speech with id: -5132529788016582906, has already been processed
+INFO:root:speech with id: 4331862586883536796, has already been processed
+INFO:root:speech with id: -2022742657750476155, has already been processed
+INFO:root:speech with id: -5019030287546794166, has already been processed
+INFO:root:speech with id: 7402737982625023610, has already been processed
+INFO:root:speech with id: 3410054544561417421, has already been processed
+INFO:root:speech with id: 1203873537267298375, has already been processed
+INFO:root:speech with id: -8347964665277215614, has already been processed
+INFO:root:speech with id: 2453133292771593457, has already been processed
+INFO:root:speech with id: -524616753492159642, has already been processed
+INFO:root:speech with id: 5704648572635494324, has already been processed
+INFO:root:speech with id: 8614019961935026041, has already been processed
+INFO:root:speech with id: -3820362237925983457, has already been processed
+INFO:root:speech with id: 5437354279841915999, has already been processed
+INFO:root:speech with id: 1685333619824873758, has already been processed
+INFO:root:speech with id: -5790753868226820875, has already been processed
+INFO:root:speech with id: -7309474997046754408, has already been processed
+INFO:root:speech with id: -2146227730730944767, has already been processed
+INFO:root:speech with id: -9035445516143812338, has already been processed
+INFO:root:speech with id: -4466464431062650924, has already been processed
+INFO:root:speech with id: -6888024957483857830, has already been processed
+INFO:root:speech with id: 4399444989431353558, has already been processed
+INFO:root:speech with id: -8955051958648609667, has already been processed
+INFO:root:speech with id: -2738123695953883430, has already been processed
+INFO:root:speech with id: -4795723835188166635, has already been processed
+INFO:root:speech with id: 2753786576761550969, has already been processed
+INFO:root:speech with id: 4376902487447522301, has already been processed
+INFO:root:speech with id: 6038601760180257849, has already been processed
+INFO:root:speech with id: 7211082659537376333, has already been processed
+INFO:root:speech with id: -199407209323328605, has already been processed
+INFO:root:speech with id: -8765821913453574918, has already been processed
+INFO:root:speech with id: 4328910093216297937, has already been processed
+INFO:root:speech with id: 6307782142774650588, has already been processed
+INFO:root:speech with id: -4809692228625826366, has already been processed
+INFO:root:speech with id: -2354506535241284139, has already been processed
+INFO:root:speech with id: -229123753456103446, has already been processed
+INFO:root:speech with id: 2185211230540417909, has already been processed
+INFO:root:speech with id: 9068313039816245254, has already been processed
+INFO:root:speech with id: 1445101647715981451, has already been processed
+INFO:root:speech with id: 7245245453215834027, has already been processed
+INFO:root:speech with id: 4307841422238634097, has already been processed
+INFO:root:speech with id: -5540306935165233468, has already been processed
+INFO:root:speech with id: 7757024708596495135, has already been processed
+INFO:root:speech with id: -3504319099519231949, has already been processed
+INFO:root:speech with id: 6074982842255472800, has already been processed
+INFO:root:speech with id: 5202888995905779154, has already been processed
+INFO:root:speech with id: -285928031507893832, has already been processed
+INFO:root:speech with id: -4882161697470646089, has already been processed
+INFO:root:speech with id: -8369484299572077868, has already been processed
+INFO:root:speech with id: 5017585058439206572, has already been processed
+INFO:root:speech with id: -7346173429654176318, has already been processed
+INFO:root:speech with id: -8364860227917391821, has already been processed
+INFO:root:speech with id: 1076662169357684675, has already been processed
+INFO:root:speech with id: -8649471263705446284, has already been processed
+INFO:root:speech with id: -6614288370566842192, has already been processed
+INFO:root:speech with id: 7538821150041389113, has already been processed
+INFO:root:speech with id: -6453777761508466764, has already been processed
+INFO:root:speech with id: 4409994453521250322, has already been processed
+INFO:root:speech with id: -2304345421082153723, has already been processed
+INFO:root:speech with id: 1002292950973226747, has already been processed
+INFO:root:speech with id: -3200487534187435751, has already been processed
+INFO:root:speech with id: -7917140937834622119, has already been processed
+INFO:root:speech with id: -8637577877887749495, has already been processed
+INFO:root:speech with id: -6555006395534710736, has already been processed
+INFO:root:speech with id: 568462227258977968, has already been processed
+INFO:root:speech with id: 8397894898790477886, has already been processed
+INFO:root:speech with id: -3759430742712109815, has already been processed
+INFO:root:speech with id: -4300932790585529404, has already been processed
+INFO:root:speech with id: -490201713038921692, has already been processed
+INFO:root:speech with id: -1644883189781195878, has already been processed
+INFO:root:speech with id: -7910060599540634776, has already been processed
+INFO:root:speech with id: -4808263972187230122, has already been processed
+INFO:root:speech with id: -729238130648416323, has already been processed
+INFO:root:speech with id: 8378370398548777943, has already been processed
+INFO:root:speech with id: 3269935425946960434, has already been processed
+INFO:root:speech with id: 4503934272129082165, has already been processed
+INFO:root:speech with id: 391042303488689177, has already been processed
+INFO:root:speech with id: 4626414726495943154, has already been processed
+INFO:root:speech with id: -5062870730354806128, has already been processed
+INFO:root:speech with id: -2981729487196232846, has already been processed
+INFO:root:speech with id: 4857770745673896506, has already been processed
+INFO:root:speech with id: -315564848291509628, has already been processed
+INFO:root:speech with id: 4534649863616658104, has already been processed
+INFO:root:speech with id: 2989719884098189282, has already been processed
+INFO:root:speech with id: -4735097830280953646, has already been processed
+INFO:root:speech with id: 8539795406361443019, has already been processed
+INFO:root:speech with id: 2434189405995957825, has already been processed
+INFO:root:speech with id: 1574095034346338063, has already been processed
+INFO:root:speech with id: 1151041321024545525, has already been processed
+INFO:root:speech with id: 9063738689236305823, has already been processed
+INFO:root:speech with id: 8973173966857414502, has already been processed
+INFO:root:speech with id: -5745490199984545120, has already been processed
+INFO:root:speech with id: 4747606838371554622, has already been processed
+INFO:root:speech with id: 8471335487976710582, has already been processed
+INFO:root:speech with id: 5585402012934123789, has already been processed
+INFO:root:speech with id: 1871472183126848436, has already been processed
+INFO:root:speech with id: -8394895252170309731, has already been processed
+INFO:root:speech with id: 3306420139958784659, has already been processed
+INFO:root:speech with id: 2125454277888882775, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/david-cameron-2007-speech-on-music/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+INFO:root:speech with id: -5196916322186641579, has already been processed
+INFO:root:speech with id: -8036339190228947695, has already been processed
+INFO:root:speech with id: -4593340088335070301, has already been processed
+INFO:root:speech with id: -1792348503107679018, has already been processed
+INFO:root:speech with id: -2645510491531615839, has already been processed
+INFO:root:speech with id: -5392279608842903544, has already been processed
+INFO:root:speech with id: -2356752316804697086, has already been processed
+INFO:root:speech with id: 2211868570605579932, has already been processed
+INFO:root:speech with id: 2518175287930593863, has already been processed
+INFO:root:speech with id: -1093405524876731835, has already been processed
+INFO:root:speech with id: -468726000713598974, has already been processed
+INFO:root:speech with id: 2766982019038347484, has already been processed
+INFO:root:speech with id: -1610847390505672196, has already been processed
+INFO:root:speech with id: 8678849774466970773, has already been processed
+INFO:root:speech with id: 7395089039824380554, has already been processed
+INFO:root:speech with id: -8528327984558062364, has already been processed
+INFO:root:speech with id: -4287637452886397449, has already been processed
+INFO:root:speech with id: 4455924231298699681, has already been processed
+INFO:root:speech with id: -2261028193674505647, has already been processed
+INFO:root:speech with id: -4251721167736535946, has already been processed
+INFO:root:speech with id: -5724288414484342276, has already been processed
+INFO:root:speech with id: 7465208156379591958, has already been processed
+INFO:root:speech with id: 632796850634079116, has already been processed
+INFO:root:speech with id: 3196408898198757454, has already been processed
+INFO:root:speech with id: -8906236320568897188, has already been processed
+INFO:root:speech with id: 4258403908089948739, has already been processed
+INFO:root:speech with id: 54077029424637483, has already been processed
+INFO:root:speech with id: 3017361945614913334, has already been processed
+INFO:root:speech with id: 5454356793961435020, has already been processed
+INFO:root:speech with id: 528845435926796746, has already been processed
+INFO:root:speech with id: 1065711306926062191, has already been processed
+INFO:root:speech with id: -1502521220725547100, has already been processed
+INFO:root:speech with id: -5390798484384565743, has already been processed
+INFO:root:speech with id: -8678906728657160440, has already been processed
+INFO:root:speech with id: -8948722408135072996, has already been processed
+INFO:root:speech with id: -8629143015987371650, has already been processed
+INFO:root:speech with id: 6908210124050669346, has already been processed
+INFO:root:speech with id: 5308614951031477232, has already been processed
+INFO:root:speech with id: 5918081431102826230, has already been processed
+INFO:root:speech with id: 6826913086333670376, has already been processed
+INFO:root:speech with id: -1385228620456067942, has already been processed
+INFO:root:speech with id: 6008799935650702709, has already been processed
+INFO:root:speech with id: 6873660356756265762, has already been processed
+INFO:root:speech with id: -6184697961950581959, has already been processed
+INFO:root:speech with id: 17419632535602328, has already been processed
+INFO:root:speech with id: -1150762818428158969, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/david-cameron-2012-transcript-of-qa-at-zayed-university-abu-dhabi/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+INFO:root:speech with id: -2874950268794594438, has already been processed
+INFO:root:speech with id: 2083870140936044693, has already been processed
+INFO:root:speech with id: -8679223154858641611, has already been processed
+INFO:root:speech with id: -8532891153381246681, has already been processed
+INFO:root:speech with id: 9213704506408439966, has already been processed
+INFO:root:speech with id: -4162446113746402319, has already been processed
+INFO:root:speech with id: -6496512474269588643, has already been processed
+INFO:root:speech with id: -882220569921887607, has already been processed
+INFO:root:speech with id: 5340057020562718096, has already been processed
+INFO:root:speech with id: -1199731627976763535, has already been processed
+INFO:root:speech with id: -826774478557550100, has already been processed
+INFO:root:speech with id: -2734955794225781901, has already been processed
+INFO:root:speech with id: -1044896261197291344, has already been processed
+INFO:root:speech with id: 3089051720353243918, has already been processed
+INFO:root:speech with id: 8018355693312597639, has already been processed
+INFO:root:speech with id: -3610602001066994670, has already been processed
+INFO:root:speech with id: -2261652643679008128, has already been processed
+INFO:root:speech with id: 7691104703390566596, has already been processed
+INFO:root:speech with id: -265366968167530330, has already been processed
+INFO:root:speech with id: 3715623972084042202, has already been processed
+INFO:root:speech with id: 5960265862468909169, has already been processed
+INFO:root:speech with id: -4024487252636186374, has already been processed
+INFO:root:speech with id: 6907172016607652685, has already been processed
+INFO:root:speech with id: -131770628490098877, has already been processed
+INFO:root:speech with id: -3316010634603734147, has already been processed
+INFO:root:speech with id: -991317090085189798, has already been processed
+INFO:root:speech with id: 5764271077999847952, has already been processed
+INFO:root:speech with id: -3001940037124581556, has already been processed
+INFO:root:speech with id: -6842567001257830292, has already been processed
+INFO:root:speech with id: 3524470405433729508, has already been processed
+INFO:root:speech with id: -6287957647347448124, has already been processed
+INFO:root:speech with id: -3598698790443282871, has already been processed
+INFO:root:speech with id: -551067397222871421, has already been processed
+INFO:root:speech with id: -4440886967418391500, has already been processed
+INFO:root:speech with id: 4513309845410545836, has already been processed
+INFO:root:speech with id: -1309393259954643618, has already been processed
+INFO:root:speech with id: 8419166333267821845, has already been processed
+INFO:root:speech with id: 2476384903567363079, has already been processed
+INFO:root:speech with id: 2298588895928677168, has already been processed
+INFO:root:speech with id: -5920065232440689287, has already been processed
+INFO:root:speech with id: -3431525423578935000, has already been processed
+INFO:root:speech with id: 7723946041656935486, has already been processed
+INFO:root:speech with id: -6094157227635846909, has already been processed
+INFO:root:speech with id: -2978540860988996181, has already been processed
+INFO:root:speech with id: -5966740233326568424, has already been processed
+INFO:root:speech with id: -6261435468838896703, has already been processed
+INFO:root:speech with id: -9091441471137448092, has already been processed
+INFO:root:speech with id: -1651262074859563179, has already been processed
+INFO:root:speech with id: 2295670472507271771, has already been processed
+INFO:root:speech with id: -371379563234608916, has already been processed
+INFO:root:speech with id: 692698822518650372, has already been processed
+INFO:root:speech with id: 6700493263295945972, has already been processed
+INFO:root:speech with id: 2844696624154341260, has already been processed
+INFO:root:speech with id: -4471887910618270157, has already been processed
+INFO:root:speech with id: 5055038601692891982, has already been processed
+INFO:root:speech with id: 4252426122172328350, has already been processed
+INFO:root:speech with id: -7594300060502707005, has already been processed
+INFO:root:speech with id: 1341763992261319607, has already been processed
+INFO:root:speech with id: -200090477244291138, has already been processed
+INFO:root:speech with id: 5963080339746389348, has already been processed
+INFO:root:speech with id: -7539194818973196446, has already been processed
+INFO:root:speech with id: -3915132886428193382, has already been processed
+INFO:root:speech with id: -1513026000251792477, has already been processed
+INFO:root:speech with id: 8806016120716315772, has already been processed
+INFO:root:speech with id: -8658111622044109215, has already been processed
+INFO:root:speech with id: 8832438203970323280, has already been processed
+INFO:root:speech with id: 989187849337769617, has already been processed
+INFO:root:speech with id: 457629799025965333, has already been processed
+INFO:root:speech with id: -429044703800901409, has already been processed
+INFO:root:speech with id: -785976937701613054, has already been processed
+INFO:root:speech with id: -2146792309682014119, has already been processed
+INFO:root:speech with id: 8711650284778348615, has already been processed
+INFO:root:speech with id: 2664009788875265184, has already been processed
+INFO:root:speech with id: 2636504394067126768, has already been processed
+INFO:root:speech with id: 7480089265451104594, has already been processed
+INFO:root:speech with id: 4667461927508109641, has already been processed
+INFO:root:speech with id: 7343949429491109073, has already been processed
+INFO:root:speech with id: 1693391873483125779, has already been processed
+INFO:root:speech with id: -2671837439144682924, has already been processed
+INFO:root:speech with id: -5154791851413409352, has already been processed
+INFO:root:speech with id: 4055428158125539116, has already been processed
+INFO:root:speech with id: 6126726374846884409, has already been processed
+INFO:root:speech with id: -5590954469843422359, has already been processed
+INFO:root:speech with id: 6196543582546748933, has already been processed
+INFO:root:speech with id: -9211886772323522844, has already been processed
+INFO:root:speech with id: -3432824694683791687, has already been processed
+INFO:root:speech with id: 3052344508542101376, has already been processed
+INFO:root:speech with id: 5314498802840486658, has already been processed
+INFO:root:speech with id: 1121760840166596416, has already been processed
+INFO:root:speech with id: 5947031647086218694, has already been processed
+INFO:root:speech with id: 4720688789463805145, has already been processed
+INFO:root:speech with id: 1956210423078710962, has already been processed
+INFO:root:speech with id: -2892304951312257800, has already been processed
+INFO:root:speech with id: -142966122747587932, has already been processed
+INFO:root:speech with id: 655863710113338422, has already been processed
+INFO:root:speech with id: 4207172217412557886, has already been processed
+INFO:root:speech with id: -9124911450399871457, has already been processed
+INFO:root:speech with id: -3337315283686147519, has already been processed
+INFO:root:speech with id: 3503125797408424100, has already been processed
+INFO:root:speech with id: -596222897739118928, has already been processed
+INFO:root:speech with id: 3831508397019638933, has already been processed
+INFO:root:speech with id: 8780601896129578324, has already been processed
+INFO:root:speech with id: 909129281237657364, has already been processed
+INFO:root:speech with id: 5673680450570190940, has already been processed
+INFO:root:speech with id: 541283334415149975, has already been processed
+INFO:root:speech with id: -499932647467557820, has already been processed
+INFO:root:speech with id: -8335418791256691812, has already been processed
+INFO:root:speech with id: 5018538696814240872, has already been processed
+INFO:root:speech with id: 4463718949215356950, has already been processed
+INFO:root:speech with id: -4358974802995253705, has already been processed
+INFO:root:speech with id: 4015416159038219438, has already been processed
+INFO:root:speech with id: 1279377408569035013, has already been processed
+INFO:root:speech with id: -3219677793201838690, has already been processed
+INFO:root:speech with id: -1506907481958708675, has already been processed
+INFO:root:speech with id: 4564089453661022209, has already been processed
+INFO:root:speech with id: 4719229201344040800, has already been processed
+INFO:root:speech with id: -2358372721199703353, has already been processed
+INFO:root:speech with id: -3283785239944776055, has already been processed
+INFO:root:speech with id: 6442254225600444643, has already been processed
+INFO:root:speech with id: 797203365379617076, has already been processed
+INFO:root:speech with id: -3862949631010892315, has already been processed
+INFO:root:speech with id: 7545602031874884618, has already been processed
+INFO:root:speech with id: 3110465604070999578, has already been processed
+INFO:root:speech with id: 8957786964331374618, has already been processed
+INFO:root:speech with id: -1543235697139488872, has already been processed
+INFO:root:speech with id: 6686071112776369637, has already been processed
+INFO:root:speech with id: -2394607200430670544, has already been processed
+INFO:root:speech with id: -2337410147360872452, has already been processed
+INFO:root:speech with id: -7737026182468867718, has already been processed
+INFO:root:speech with id: -4405870031184002948, has already been processed
+INFO:root:speech with id: -1854977678345500805, has already been processed
+INFO:root:speech with id: 7609998494548990684, has already been processed
+INFO:root:speech with id: 3193456002546070627, has already been processed
+INFO:root:speech with id: -922342854721932241, has already been processed
+INFO:root:speech with id: -738434813765303629, has already been processed
+INFO:root:speech with id: 2491414536015293116, has already been processed
+INFO:root:speech with id: -3688136461495948727, has already been processed
+INFO:root:speech with id: 6464291777188138081, has already been processed
+INFO:root:speech with id: -8781560265368746985, has already been processed
+INFO:root:speech with id: -1414238056778294395, has already been processed
+INFO:root:speech with id: -5339431023873828674, has already been processed
+INFO:root:speech with id: -9019334028665113093, has already been processed
+INFO:root:speech with id: 5985752509660254643, has already been processed
+INFO:root:speech with id: 1758041987270383193, has already been processed
+INFO:root:speech with id: 8608300962052175220, has already been processed
+INFO:root:speech with id: -984960219740169630, has already been processed
+INFO:root:speech with id: 184519648449058781, has already been processed
+INFO:root:speech with id: 8767760774451315628, has already been processed
+INFO:root:speech with id: -3164239133131214651, has already been processed
+INFO:root:speech with id: 3537713337913726821, has already been processed
+INFO:root:speech with id: -501369084152172698, has already been processed
+INFO:root:speech with id: -5906717570213789419, has already been processed
+INFO:root:speech with id: 60294979577542897, has already been processed
+INFO:root:speech with id: 7138842383671820495, has already been processed
+INFO:root:speech with id: -1503934030292692065, has already been processed
+INFO:root:speech with id: 2518951870071797716, has already been processed
+INFO:root:speech with id: -7534346591474752288, has already been processed
+INFO:root:speech with id: 6816766335564753317, has already been processed
+INFO:root:speech with id: 7056501139268374554, has already been processed
+INFO:root:speech with id: -1680861328688378942, has already been processed
+INFO:root:speech with id: -1106580979107472515, has already been processed
+INFO:root:speech with id: -7058939816039587477, has already been processed
+INFO:root:speech with id: -6704456651142510852, has already been processed
+INFO:root:speech with id: 2411653890090267254, has already been processed
+INFO:root:speech with id: 990873545299703575, has already been processed
+INFO:root:speech with id: -4185400123148813639, has already been processed
+INFO:root:speech with id: 3361547608543355265, has already been processed
+INFO:root:speech with id: 830650696341813337, has already been processed
+INFO:root:speech with id: -1464661646331294163, has already been processed
+INFO:root:speech with id: 6974569004653562703, has already been processed
+INFO:root:speech with id: -8028913070331877619, has already been processed
+INFO:root:speech with id: -6080305401354185364, has already been processed
+INFO:root:speech with id: 818927152577976685, has already been processed
+INFO:root:speech with id: -8861393667458884372, has already been processed
+INFO:root:speech with id: 5901455931727330870, has already been processed
+INFO:root:speech with id: -6891317502046689588, has already been processed
+INFO:root:speech with id: 2649042485593482719, has already been processed
+INFO:root:speech with id: -3339970983705911059, has already been processed
+INFO:root:speech with id: -412577365497968642, has already been processed
+INFO:root:speech with id: 3324723385089215247, has already been processed
+INFO:root:speech with id: -1264238080161337751, has already been processed
+INFO:root:speech with id: -2313169521988743336, has already been processed
+INFO:root:speech with id: 7900416477190708830, has already been processed
+INFO:root:speech with id: -8381934245678854149, has already been processed
+INFO:root:speech with id: 8427354903670966478, has already been processed
+INFO:root:speech with id: 7705303727562272662, has already been processed
+INFO:root:speech with id: -854635469481823767, has already been processed
+INFO:root:speech with id: -6694045600163877431, has already been processed
+INFO:root:speech with id: -3602167756691896678, has already been processed
+INFO:root:speech with id: 1926423308108269806, has already been processed
+INFO:root:speech with id: -2576779547852930282, has already been processed
+INFO:root:speech with id: 4015682881454409065, has already been processed
+INFO:root:speech with id: 1018225878791337582, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/winston-churchill-1941-speech-in-the-house-of-commons-following-the-japan-attack-on-the-usa/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+INFO:root:speech with id: -1861323218699570945, has already been processed
+INFO:root:speech with id: 906780665389619330, has already been processed
+INFO:root:speech with id: -7930745367353517388, has already been processed
+INFO:root:speech with id: 5401264499870057509, has already been processed
+INFO:root:speech with id: -3413260384707950708, has already been processed
+INFO:root:speech with id: 1161400835889072141, has already been processed
+INFO:root:speech with id: 5983709817199347206, has already been processed
+INFO:root:speech with id: -6767241076464142776, has already been processed
+INFO:root:speech with id: -5454221469014049611, has already been processed
+INFO:root:speech with id: 6014991840242693955, has already been processed
+INFO:root:speech with id: 3962935202172431095, has already been processed
+INFO:root:speech with id: 5282512313762956424, has already been processed
+INFO:root:speech with id: -1369261619895287849, has already been processed
+INFO:root:speech with id: -1007374837860547912, has already been processed
+INFO:root:speech with id: -279792590808437136, has already been processed
+INFO:root:speech with id: -3771357088979942339, has already been processed
+INFO:root:speech with id: -6359318717514084469, has already been processed
+INFO:root:speech with id: -4319908455521536446, has already been processed
+INFO:root:speech with id: 9110480413017415817, has already been processed
+INFO:root:speech with id: 497833497812499206, has already been processed
+INFO:root:speech with id: -2783158571546351492, has already been processed
+INFO:root:speech with id: 2815071370312671979, has already been processed
+INFO:root:speech with id: 3721353114821274119, has already been processed
+INFO:root:speech with id: -9096055022128163617, has already been processed
+INFO:root:speech with id: -4329461313613400391, has already been processed
+INFO:root:speech with id: 3503621710842019872, has already been processed
+INFO:root:speech with id: -1822476153431387323, has already been processed
+INFO:root:speech with id: 3108429940315116015, has already been processed
+INFO:root:speech with id: -4380241383095793721, has already been processed
+INFO:root:speech with id: 8458899968860827034, has already been processed
+INFO:root:speech with id: 5020628652641426543, has already been processed
+INFO:root:speech with id: -1451326662545039209, has already been processed
+INFO:root:speech with id: 1679450290234508116, has already been processed
+INFO:root:speech with id: -4658973639449105790, has already been processed
+INFO:root:speech with id: 8234218383852345924, has already been processed
+INFO:root:speech with id: -3581601225099478351, has already been processed
+INFO:root:speech with id: 961290385324773233, has already been processed
+INFO:root:speech with id: -8417962706690974793, has already been processed
+INFO:root:speech with id: 8538371192256128208, has already been processed
+INFO:root:speech with id: -1464247981772122952, has already been processed
+INFO:root:speech with id: -3876738178634333373, has already been processed
+INFO:root:speech with id: -1321168465195219782, has already been processed
+INFO:root:speech with id: 1426701147494074534, has already been processed
+INFO:root:speech with id: 9048102176606207817, has already been processed
+INFO:root:speech with id: -5299357454730846480, has already been processed
+INFO:root:speech with id: 617535716901484750, has already been processed
+INFO:root:speech with id: -3763966831007892571, has already been processed
+INFO:root:speech with id: 268340121456492075, has already been processed
+INFO:root:speech with id: 84563123929604997, has already been processed
+INFO:root:speech with id: -2847777054883336892, has already been processed
+INFO:root:speech with id: 1226457675942061962, has already been processed
+INFO:root:speech with id: -7021745850970511782, has already been processed
+INFO:root:speech with id: -8619466575886351328, has already been processed
+INFO:root:speech with id: -1531204609132713937, has already been processed
+INFO:root:speech with id: -8926924828734000712, has already been processed
+INFO:root:speech with id: 6381320266175030648, has already been processed
+INFO:root:speech with id: 7060194869888215382, has already been processed
+INFO:root:speech with id: -8103060613900843836, has already been processed
+INFO:root:speech with id: 5545875136882291478, has already been processed
+INFO:root:speech with id: 7962507220194158775, has already been processed
+INFO:root:speech with id: -3327384692550118384, has already been processed
+INFO:root:speech with id: 4232105017526142199, has already been processed
+INFO:root:speech with id: -7413337181097001605, has already been processed
+INFO:root:speech with id: 1519786169486638913, has already been processed
+INFO:root:speech with id: 9028356696785341407, has already been processed
+INFO:root:speech with id: -7347608101397495913, has already been processed
+INFO:root:speech with id: -5741213701090948297, has already been processed
+INFO:root:speech with id: -13820145604108736, has already been processed
+INFO:root:speech with id: 2284862468509252194, has already been processed
+INFO:root:speech with id: -3191092341616666995, has already been processed
+INFO:root:speech with id: -5281704482288353660, has already been processed
+INFO:root:speech with id: -6516253984049740605, has already been processed
+INFO:root:speech with id: 319524863220468264, has already been processed
+INFO:root:speech with id: -7508873687924385935, has already been processed
+INFO:root:speech with id: 273388186883978248, has already been processed
+INFO:root:speech with id: -8210951781132925071, has already been processed
+INFO:root:speech with id: 1762917291988942405, has already been processed
+INFO:root:speech with id: 794224214731818075, has already been processed
+INFO:root:speech with id: -5964198408504582838, has already been processed
+INFO:root:speech with id: -3924986591308457933, has already been processed
+INFO:root:speech with id: 4937830779840838949, has already been processed
+INFO:root:speech with id: -6743109704220331487, has already been processed
+INFO:root:speech with id: 7850479302556426814, has already been processed
+INFO:root:speech with id: 7945263498901549250, has already been processed
+INFO:root:speech with id: 5399468086597111920, has already been processed
+INFO:root:speech with id: 579390361733248495, has already been processed
+INFO:root:speech with id: 1905930964812440816, has already been processed
+INFO:root:speech with id: 1857268139040233272, has already been processed
+INFO:root:speech with id: -6336762504017721728, has already been processed
+INFO:root:speech with id: -5815346455045339943, has already been processed
+INFO:root:speech with id: 2720119271674940144, has already been processed
+INFO:root:speech with id: -4865021160385453735, has already been processed
+INFO:root:speech with id: 3065725132810684070, has already been processed
+INFO:root:speech with id: -2335541584489947658, has already been processed
+INFO:root:speech with id: 5532968855738577428, has already been processed
+INFO:root:speech with id: 2631923195346341749, has already been processed
+INFO:root:speech with id: -6360455966205975820, has already been processed
+INFO:root:speech with id: -995159376732297302, has already been processed
+INFO:root:speech with id: -7928455312016527455, has already been processed
+INFO:root:speech with id: 6480007143176134668, has already been processed
+INFO:root:speech with id: -5091841317651242553, has already been processed
+INFO:root:speech with id: 8984058799149743625, has already been processed
+INFO:root:speech with id: 4165580359615385480, has already been processed
+INFO:root:speech with id: 1095378959887647567, has already been processed
+INFO:root:speech with id: 3213081046800111315, has already been processed
+INFO:root:speech with id: -9044477813414210391, has already been processed
+INFO:root:speech with id: 3275061827908307240, has already been processed
+INFO:root:speech with id: 2182722813443238830, has already been processed
+INFO:root:speech with id: 1088024946539245158, has already been processed
+INFO:root:speech with id: -7417692987096181954, has already been processed
+INFO:root:speech with id: 2988069399726137763, has already been processed
+INFO:root:speech with id: -3911065572970464736, has already been processed
+INFO:root:speech with id: 8372358964016359031, has already been processed
+INFO:root:speech with id: -7776348209966161878, has already been processed
+INFO:root:speech with id: -6175232742380417186, has already been processed
+INFO:root:speech with id: 1482800011277404451, has already been processed
+INFO:root:speech with id: -3622199827693315536, has already been processed
+INFO:root:speech with id: 6523262702182400863, has already been processed
+INFO:root:speech with id: 720913051560342991, has already been processed
+INFO:root:speech with id: 3414634316416497982, has already been processed
+INFO:root:speech with id: -2757563474869773013, has already been processed
+INFO:root:speech with id: -1235049807672560743, has already been processed
+INFO:root:speech with id: -2113422086361379985, has already been processed
+INFO:root:speech with id: -5316840199500730427, has already been processed
+INFO:root:speech with id: 6452271437544408767, has already been processed
+INFO:root:speech with id: -4609497626330627455, has already been processed
+INFO:root:speech with id: 8576315894395621394, has already been processed
+INFO:root:speech with id: 1567965438318574128, has already been processed
+INFO:root:speech with id: -5880420193712629421, has already been processed
+INFO:root:speech with id: 1876641239434741642, has already been processed
+INFO:root:speech with id: -8636590108416065512, has already been processed
+INFO:root:speech with id: -8344636670932269375, has already been processed
+INFO:root:speech with id: 5287814100858586973, has already been processed
+INFO:root:speech with id: -6786514506209851813, has already been processed
+INFO:root:speech with id: 574248987965458371, has already been processed
+INFO:root:speech with id: -1286541152749390115, has already been processed
+INFO:root:speech with id: -6675014688977837855, has already been processed
+INFO:root:speech with id: -5151496161338140934, has already been processed
+INFO:root:speech with id: 3398258514723543089, has already been processed
+INFO:root:speech with id: -7130970302476712516, has already been processed
+INFO:root:speech with id: -7802704347795052195, has already been processed
+INFO:root:speech with id: -5214750443317039713, has already been processed
+INFO:root:speech with id: 5773612933360171619, has already been processed
+INFO:root:speech with id: -6552963160150679795, has already been processed
+INFO:root:speech with id: -3091675642966888899, has already been processed
+INFO:root:speech with id: -7276375386200356171, has already been processed
+INFO:root:speech with id: -2519542700184703848, has already been processed
+INFO:root:speech with id: 1825034022242356553, has already been processed
+INFO:root:speech with id: -1389139718783842288, has already been processed
+INFO:root:speech with id: 299005981558940013, has already been processed
+INFO:root:speech with id: 6790134618203415229, has already been processed
+INFO:root:speech with id: -8964082075016480616, has already been processed
+INFO:root:speech with id: -3262048303641092043, has already been processed
+INFO:root:speech with id: -3945977417683224090, has already been processed
+INFO:root:speech with id: 4292629895877926517, has already been processed
+INFO:root:speech with id: -2476976528636455957, has already been processed
+INFO:root:speech with id: 4690665793249305961, has already been processed
+INFO:root:speech with id: 9039423532043158243, has already been processed
+INFO:root:speech with id: -8864629866945947977, has already been processed
+INFO:root:speech with id: 7561197228341618919, has already been processed
+INFO:root:speech with id: -5682115117823266462, has already been processed
+INFO:root:speech with id: -3572721803858492388, has already been processed
+INFO:root:speech with id: -9084462004386858475, has already been processed
+INFO:root:speech with id: -3519446816452838542, has already been processed
+INFO:root:speech with id: 7513045284806535875, has already been processed
+INFO:root:speech with id: -1283343961025083763, has already been processed
+INFO:root:speech with id: 1088016359512421863, has already been processed
+INFO:root:speech with id: -8823374702375486700, has already been processed
+INFO:root:speech with id: 4923682361193668383, has already been processed
+INFO:root:speech with id: 7189459648450266429, has already been processed
+INFO:root:speech with id: -1598020019431959865, has already been processed
+INFO:root:speech with id: -8929265188268480366, has already been processed
+INFO:root:speech with id: 5071857189310635875, has already been processed
+INFO:root:speech with id: 3195303568237470502, has already been processed
+INFO:root:speech with id: -7504859748549955791, has already been processed
+INFO:root:speech with id: -4480167932890485297, has already been processed
+INFO:root:speech with id: -8938979016873782510, has already been processed
+INFO:root:speech with id: 5949171377403822506, has already been processed
+INFO:root:speech with id: 6401466359927274420, has already been processed
+INFO:root:speech with id: -9162813748624318875, has already been processed
+INFO:root:speech with id: -575428244621062389, has already been processed
+INFO:root:speech with id: -7778740941525667231, has already been processed
+INFO:root:speech with id: 1500097926252038053, has already been processed
+INFO:root:speech with id: 4019565179669187060, has already been processed
+INFO:root:speech with id: 1315110860736716318, has already been processed
+INFO:root:speech with id: -5595473619157627526, has already been processed
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/alistair-darling-2008-budget/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:The url: http://www.ukpol.co.uk/dominic-grieve-2017-speech-on-withdrawal-from-the-eu/
+ returned the status code: 404
+ And has not been processed.
+
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/william-hague-2008-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/harriet-harman-2009-speech-to-the-welsh-labour-party-conference/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/simon-hughes-2008-liberal-democrat-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/douglas-hurd-1974-maiden-speech-in-the-house-of-commons/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:The url: http://www.ukpol.co.uk/sajid-javid-2017-speech-to-the-anne-frank-trust/
+ returned the status code: 404
+ And has not been processed.
+
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/sir-john-major-1991-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/john-major-1992-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/john-major-1993-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/john-major-1994-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/john-major-1995-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/john-major-1996-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/francis-maude-2000-speech-on-nations-and-networks/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/theresa-may-2008-conservative-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/theresa-may-2017-speech-on-exiting-the-european-union/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/theresa-may-2018-speech-on-brexit/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/george-osborne-2008-speech-to-the-annual-cps-lecture/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/queen-elizabeth-ii-1977-jubilee-speech-to-parliament/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/queen-elizabeth-ii-2007-christmas-broadcast/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/alex-salmond-2004-scottish-national-party-conference-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/viscount-samuel-1939-house-of-lords-address/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/clare-short-2003-resignation-statement/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/iain-duncan-smith-2003-centre-for-policy-studies-speech/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:root:Scraping Exception for url: http://www.ukpol.co.uk/jacqui-smith-2008-speech-to-the-conference-of-european-organised-crime/
+Traceback (most recent call last):
+  File "scripts/speech_scrape.py", line 50, in scrape_speech
+    speech_dict["speech_context"] = extract_speech_context(content)
+  File "scripts/speech_scrape.py", line 75, in extract_speech_context
+    return context_tag.text
+AttributeError: 'NoneType' object has no attribute 'text'
