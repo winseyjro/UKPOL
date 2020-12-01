@@ -38,3 +38,24 @@ https://blog.usejournal.com/why-and-how-to-make-a-requirements-txt-f329c685181e
 Clone my repo and install requirements with
 
 `pip install -r requirements.txt`
+
+Local dynamodb:
+brew cask install dynamodb-local
+
+Start server with:
+dynamodb-local
+
+aws dynamodb create-table \
+ --table-name speech_table \
+ --attribute-definitions \
+ AttributeName=speech_id,AttributeType=S \
+ --key-schema \
+ AttributeName=speech_id,KeyType=HASH \
+ --provisioned-throughput \
+ ReadCapacityUnits=1,WriteCapacityUnits=1 \
+ --endpoint-url http://localhost:8000 \
+--profile jw_fake
+
+export AWS_PROFILE=jw_fake
+dynamodb-admin
+dynamodb-local

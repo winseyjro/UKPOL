@@ -2,43 +2,47 @@ import requests
 from bs4 import BeautifulSoup
 from utils import read_json, write_json
 from tqdm import tqdm
+from utils import aws_dynamodb
 
 import pdb
 import logging
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.ERROR,
                     filename='./logs/speech_scrape.log', filemode='w')
 
 
 def process_speech_links():
-    # make data copy if it doesn't already exist
-    data_copy = read_json('./data/speech_links.json')
-    try:
-        write_json('./data/speech_data.json', data_copy, mode='x')
-    except FileExistsError:
-        logging.info("Copy file aborted as data exists\n")
 
-    data_dict = read_json('./data/speech_data.json')
-    speech_ids = data_dict.keys()
+    # # make data copy if it doesn't already exist
+    # data_copy = read_json('./data/speech_links.json')
+    # try:
+    #     write_json('./data/speech_data.json', data_copy, mode='x')
+    # except FileExistsError:
+    #     logging.info("Copy file aborted as data exists\n")
 
-    for i, speech_id in enumerate(tqdm(speech_ids)):
-        speech_dict = data_dict[speech_id]
+    # data_dict = read_json('./data/speech_data.json')
+    # speech_ids = data_dict.keys()
+
+    dynamodb = aws_dynamodb()
+    speech_ids = dynamodb.get_keys()
+    for speech_id in tqdm(speech_ids):
+        speech_dict = dynamodb.get_item(speech_id)
 
         # Only scrape if not already scraped
         if "speech_text" not in speech_dict.keys():
-            scrape_speech(speech_dict)
+            scrape_speech(speech_dict, dynamodb)
 
-            # write every 100 iterations for safety
-            if (i != 0) and (i % 100) == 0:
-                write_json('./data/speech_data.json', data_dict)
+            # # write every 100 iterations for safety
+            # if (i != 0) and (i % 100) == 0:
+            #     write_json('./data/speech_data.json', data_dict)
 
         else:
             logging.info(
                 "speech with id: {}, has already been processed".format(speech_id))
 
-    write_json('./data/speech_data.json', data_dict)
+    # write_json('./data/speech_data.json', data_dict)
 
 
-def scrape_speech(speech_dict):
+def scrape_speech(speech_dict, dynamodb_obj):
     url = speech_dict['url']
     response = requests.get(url)
     if response.status_code == requests.codes.ok:
@@ -49,6 +53,7 @@ def scrape_speech(speech_dict):
             speech_dict["date_published"] = extract_date_published(content)
             speech_dict["speech_context"] = extract_speech_context(content)
             speech_dict["speech_text"] = extract_speech_text(content)
+            dynamodb_obj.put_item(speech_dict)
 
         except Exception as e:
             logging.exception("Scraping Exception for url: {}\n".format(url))
